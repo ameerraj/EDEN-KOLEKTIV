@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DJ COLLECTIVE | OFFICIAL</title>
+    <style>
+        /* THE AESTHETIC: Minimal, Brutalist, Dark */
+        :root {
+            --bg-color: #050505;
+            --text-color: #ffffff;
+            --accent-color: #333333;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            font-family: 'Courier New', Courier, monospace; /* Lo-fi typewriter feel */
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-transform: uppercase;
+        }
+
+        .container {
+            max-width: 600px;
+            width: 100%;
+            margin-top: 50px;
+        }
+
+        header h1 {
+            font-size: 1.5rem;
+            border: 1px solid var(--text-color);
+            padding: 10px;
+            display: inline-block;
+            margin-bottom: 40px;
+        }
+
+        .nav-link {
+            display: block;
+            color: var(--text-color);
+            text-decoration: none;
+            font-size: 1.2rem;
+            padding: 15px 0;
+            border-bottom: 1px solid var(--accent-color);
+            transition: all 0.2s ease;
+        }
+
+        .nav-link:hover {
+            letter-spacing: 3px;
+            background-color: #111;
+        }
+
+        .status {
+            font-size: 0.8rem;
+            color: #888;
+            margin-top: 40px;
+            text-align: center;
+        }
+
+        /* Video/Image Placeholder */
+        .hero-media {
+            width: 100%;
+            height: 300px;
+            background: #111;
+            margin-bottom: 30px;
+            border: 1px solid var(--accent-color);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+
+        video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            filter: grayscale(100%) contrast(120%);
+        }
+
+        input[type="email"] {
+            background: transparent;
+            border: 1px solid var(--text-color);
+            color: white;
+            padding: 10px;
+            width: calc(100% - 24px);
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>[ COLLECTIVE_NAME ]</h1>
+        </header>
+
+        <div class="hero-media">
+            <div style="color: #444;">[ REPEAT_LOOP_001 ]</div>
+        </div>
+
+        <nav>
+            <a href="#" class="nav-link">Listen (Soundcloud)</a>
+            <a href="#" class="nav-link">Shows / Tickets</a>
+            <a href="#" class="nav-link">Merch / Archive</a>
+            <a href="#" class="nav-link">Discord / Community</a>
+        </nav>
+
+        <div class="signup">
+            <p style="font-size: 0.7rem; margin-top: 40px;">Join for secret location sets:</p>
+            <input type="email" placeholder="EMAIL ADDRESS...">
+        </div>
+
+        <footer class="status">
+            LAST UPDATED: 24.03.2026 // 21:24 GMT
+        </footer>
+    </div>
+
+</body>
+</html>
