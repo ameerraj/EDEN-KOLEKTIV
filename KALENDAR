@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EDEN KOLLEKTIV | KALENDAR</title>
+    <style>
+        /* Keeping the same aesthetic variables */
+        :root {
+            --bg-color: #050505;
+            --text-color: #ffffff;
+            --accent-color: #333333;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            font-family: 'Courier New', Courier, monospace;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-transform: uppercase;
+        }
+
+        .container {
+            max-width: 600px;
+            width: 100%;
+            margin-top: 50px;
+        }
+
+        .back-link {
+            color: #888;
+            text-decoration: none;
+            font-size: 0.8rem;
+            margin-bottom: 30px;
+            display: inline-block;
+        }
+
+        .back-link:hover { color: #fff; }
+
+        h2 {
+            border-bottom: 1px solid var(--text-color);
+            padding-bottom: 10px;
+            font-size: 1.2rem;
+        }
+
+        .event-list {
+            margin-top: 30px;
+            list-style: none;
+            padding: 0;
+        }
+
+        .event-item {
+            border-left: 2px solid var(--accent-color);
+            padding: 15px;
+            margin-bottom: 20px;
+            background: #0a0a0a;
+        }
+
+        .date { color: #888; font-size: 0.9rem; }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <a href="index.html" class="back-link"><-- RETURN_TO_ROOT</a>
+        
+        <h2>[ UPCOMING_EVENTS ]</h2>
+
+        <div class="event-list">
+            <div class="event-item">
+                <div class="date">30.03.2026</div>
+                <div>VOID_SESSION // WAREHOUSE 04</div>
+            </div>
+
+            <div class="event-item">
+                <div class="date">12.04.2026</div>
+                <div>INDUSTRIAL_GARDEN // SECRET LOCATION</div>
+            </div>
+            
+            <p style="color: #444; font-size: 0.7rem;">// END OF LIST //</p>
+        </div>
+    </div>
+
+</body>
+</html>
