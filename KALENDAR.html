@@ -58,6 +58,13 @@
             margin-bottom: 20px;
             background: #0a0a0a;
         }
+        
+        .past-event {
+        opacity: 0.5;          /* Makes it 50% transparent */
+        filter: grayscale(1);  /* Optional: removes color */
+        pointer-events: none;  /* Optional: prevents clicking/hovering */
+        transition: opacity 0.3s ease;
+        }
 
         .date { color: #888; font-size: 0.9rem; }
     </style>
@@ -71,15 +78,17 @@
 
         <div class="event-list">
             <div class="event-item">
+                <div class="date">24.04.2026</div>
+                <div>AFTER WORK // LADEN_EDEN @Ludgeriplatz 39</div>
+                <div>18:00 - 22:00</div>
+            </div>
+            <div class="event-item past-event">
                 <div class="date">27.03.2026</div>
                 <div>AFTER WORK // LADEN_EDEN @Ludgeriplatz 39</div>
                 <div>18:00 - 22:00</div>
             </div>
 
-            <div class="event-item">
-                <div class="date">XX.xx.2026</div>
-                <div>MORE EVENTS COMING SOON!</div>
-            </div>
+            
             
             <p style="color: #444; font-size: 0.7rem;">// END OF LIST //</p>
         </div>
